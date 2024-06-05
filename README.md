@@ -11,5 +11,13 @@ Standard Library Functions: Pre-packaged tools covering common tasks, efficient 
 A variable scope specifies the region where we can access a variable.
 A variable created inside a function is called a local variable and can only be accessed within that function.
 Change the value of a nonlocal variable, the changes appear in the local variable.
-
-
+Global keyword rules:Variables created inside a function are local by default.
+Variables defined outside a function are global by default.
+The global keyword allows reading and writing to a global variable inside a function.
+Using the global keyword outside a function has no effect.
+Base condition in recursion: Recursion ends when the number reduces to 1, known as the base condition.
+Every recursive function must have a base condition to prevent infinite recursion.
+Importing everything with the asterisk (*) symbol is discouraged in programming. It can cause duplicate definitions for identifiers and make the code less readable.
+A module is a file that contains code to perform a specific task it may contain variables, functions, classes etc
+A package is a directory containing multiple modules and other sub-packages
+A directory must contain a file named __init__.py in order for Python to consider it as a package. T 
